@@ -1,0 +1,121 @@
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-logo {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+    color: grey;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.navbar-menu li:hover {
+    color: rgb(12, 121, 224);
+    font-size: 22px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+.sign-btn {
+    background: transparent;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: blue;
+    border: 1px solid grey;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sign-btn:hover {
+    background: blue;
+    color: white;
+}
+
+.navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 3px solid blue;
+    color: rgb(12, 121, 224);
+}
+.navbar-search-icon {
+    position: relative;
+}
+
+.navbar-search-icon .dot {
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background: red;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+
+}
+
+@media (max-width: 1050px){
+    .my-logo {
+        width: 100px;
+    }
+    .navbar-menu {
+        gap: 20px;
+        font-size: 16px;
+    }
+    .navbar-right {
+        gap: 30px;
+    }
+    .navbar-right img {
+        width: 20px;
+    }
+    .sign-btn {
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 900px){
+    .my-logo {
+        width: 60px;
+    }
+    .navbar-menu {
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right {
+        gap: 20px;
+    }
+    .navbar-right img {
+        width: 20px;
+    }
+    .sign-btn {
+        padding: 7px 20px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 750px){
+    .navbar-menu {
+        display: none;
+    }
+    .navbar-right {
+        gap: 20px;
+    }
+    .navbar-right img {
+        width: 20px;
+    }
+    .sign-btn {
+        padding: 7px 20px;
+        font-size: 14px;
+    }
+}
