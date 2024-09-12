@@ -135,7 +135,7 @@ export const drinks_list = [
     { id: 7, name: "Wheat Beer", image: drinks7, price: "5.00", description: "A light and refreshing beer with a hint of citrus.", category: "Beer" },
     { id: 8, name: "Saison", image: drinks8, price: "6.00", description: "A fruity and spicy beer with a dry finish.", category: "Beer" },
     { id: 9, name: "Amber Ale", image: drinks9, price: "5.00", description: "A balanced beer with a rich malt flavor.", category: "Beer" },
-    { id: 10, name: "Brown Ale", image: drinks10, price: "5.00", description: "A smooth beer with a nutty flavor.", category: "Beer" },
+    { id: 10, name: "Brown Ale", image: drinks1, price: "5.00", description: "A smooth beer with a nutty flavor.", category: "Beer" },
     { id: 11, name: "Blonde Ale", image: drinks11, price: "4.50", description: "A light and easy-drinking beer with a subtle malt flavor.", category: "Beer" },
     { id: 12, name: "Red Ale", image: drinks12, price: "5.50", description: "A malt-forward beer with a caramel sweetness.", category: "Beer" },
     { id: 13, name: "Sour Ale", image: drinks13, price: "6.00", description: "A tart and refreshing beer with a fruity flavor.", category: "Beer" },

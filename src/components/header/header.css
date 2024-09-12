@@ -5,6 +5,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    border-radius: 10px;
 }
 
 .header-content {
@@ -22,7 +23,7 @@
 
 .header-content h2 {
     font-size: max(4.5vw, 22px);
-    font-weight: 600;
+    font-weight: 500;
     color: rgb(223, 223, 238);
 }
 
@@ -32,13 +33,15 @@
 }
 
 .header-content button {
-    background-color: white;
-    color: grey;
+    background-color: rgb(255, 162, 0);
+    color: rgb(19, 94, 243);
     padding: 1vw 2.3vw;
     font-size: max(1.5vw, 13px);
     font-weight: 500;
     border-radius: 30px;
-
+    border-radius: 12px;
+    margin-right: 17rem;
+    cursor: pointer;
 }
 
 

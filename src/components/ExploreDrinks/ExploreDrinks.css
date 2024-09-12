@@ -60,7 +60,8 @@
 @media  (max-width: 1050px){
     .exploredrinks-text {
         max-width: 100%;
-        font-size: 14px;
+        font-size: 16px;
+        margin-top: 20px;
         
     }
 }
