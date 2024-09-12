@@ -4,6 +4,7 @@ import { FacebookOutlined, Instagram, Twitter } from '@mui/icons-material'
 
 
 
+
 function Footer() {
   return (
     <div className='footer' id='footer'>
