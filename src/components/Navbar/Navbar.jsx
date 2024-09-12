@@ -1,9 +1,9 @@
 import {useContext, useState} from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
-import { Search, ShoppingBasketOutlined} from '@mui/icons-material'
 import { Link } from 'react-router-dom';
 import { StoreContext } from '../../context/storeContext';
+import { Search, ShoppingBasketOutlined } from '@mui/icons-material';
 
 
 function Navbar({setShowLogin}) {

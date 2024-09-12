@@ -4,7 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  optimizeDeps: {
-    include: ['@mui/icons-material']
+  build: {
+    rollupOptions: {
+      external: ['@mui/icons-material'] // Exclude this from bundling
+    }
   }
 });
