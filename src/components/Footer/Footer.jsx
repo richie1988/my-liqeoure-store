@@ -1,6 +1,6 @@
 import './Footer.css'
 import Logo from '../../assets/logo.png'
-import { FacebookOutlined, Instagram, Twitter } from '@mui/icons-material'
+import { FacebookOutlined, Instagram, Twitter } from '@mui/icons-material';
 
 
 
