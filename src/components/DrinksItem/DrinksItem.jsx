@@ -12,9 +12,9 @@ function DrinksItem({ id, name, price, image, description }) {
       <div className='drinks-item-img-container'>
         <img src={image} className='drinks-item-image' alt='img' />
         {!cartItems[id]? (
-          <Add className='add' onClick={() => {
+          <b className='buy-btn add' onClick={() => {
             addToCart(id);
-          }} />
+          }} >Buy</b>
         ) : (
           <div className='item-count'>
             <Remove className='remove' onClick={() => {

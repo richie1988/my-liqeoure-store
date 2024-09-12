@@ -84,6 +84,10 @@
     padding: 5px;
     cursor: pointer;
 }
+
+.buy-btn {
+    color: hsl(35, 98%, 50%);
+}
 .item-count {
     position: absolute;
     bottom: 15px;
