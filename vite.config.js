@@ -8,5 +8,10 @@ export default defineConfig({
     rollupOptions: {
       external: ['@mui/icons-material'] // Exclude this from bundling
     }
-  }
+  },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'), // Alias for the src folder
+    },
+  },
 });
